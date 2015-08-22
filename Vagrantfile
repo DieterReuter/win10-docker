@@ -12,6 +12,7 @@ Vagrant.configure(2) do |config|
       v.vmx["numvcpus"] = "2"
       v.vmx["vhv.enable"] = "TRUE"
       v.vmx["hypervisor.cpuid.v0"] = "FALSE"
+      v.vmx["gui.fitguestusingnativedisplayresolution"] = "FALSE"
     end
   end
 
